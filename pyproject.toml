@@ -16,6 +16,7 @@ dependencies = [
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
@@ -25,8 +26,12 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 
+[project.urls]
+Homepage = "https://github.com/donskyblock/opencom-rpc"
+Repository = "https://github.com/donskyblock/opencom-rpc"
+
 [tool.setuptools]
-package-dir = { "" = "src" }
+package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
